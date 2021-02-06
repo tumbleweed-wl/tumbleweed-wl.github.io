@@ -1,0 +1,57 @@
+body
+{
+   margin: 0 auto;
+   padding: 0;
+   background-image: url(../img/1d665e12e96a58b63941428bd6e2be22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#loginbox
+{
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 20px;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#loginbox h1
+{
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+#loginbox .inputbox
+{
+    margin-top: 20px;
+}
+
+#loginbox .inputbox .inputtext
+{
+    margin-top: 15px;
+}
+
+#loginbox .inputbox .inputtext input
+{
+    border: 0px;
+    padding: 5px 5px;
+    border-bottom: 1px solid whitesmoke;
+    background-color：00000000;
+}
+
+#loginbox .inputbox
+{
+
+}
+
+#link
+{
+    font-size: 10px;
+    text-align:end;
+}
+
+
