@@ -3,18 +3,17 @@
            {
                margin: 0px;
                padding: 0px;
-               background-image: url(../img/12d88c406a25f0eda0f54d5349cdc0c3.jpg);
-               background-repeat: no-epeat;
+               background: url(../img/12d88c406a25f0eda0f54d5349cdc0c3.jpg) no-repeat fixed  0px 0px;
                background-size: cover;
                
            }
+
         
            #loginbox
            {  
             font-family:Verdana, Geneva, Tahoma, sans-serif;
                text-align: center;
-               margin: 0 auto;
-               margin-top:10%;
+               margin: 10% auto;
                padding: 10px 30px;
                border-radius: 10px;
                width: 400px;
