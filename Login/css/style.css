@@ -1,57 +1,51 @@
-body
-{
-   margin: 0 auto;
-   padding: 0;
-   background-image: url(../img/1d665e12e96a58b63941428bd6e2be22.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-#loginbox
-{
-    margin: 0 auto;
-    margin-top: 200px;
-    padding: 20px;
-    width: 350px;
-    height: 300px;
-    text-align: center;
-    border-radius: 10px;
+           body
+           {
+               margin: 0px;
+               padding: 0px;
+               background-image: url(../img/12d88c406a25f0eda0f54d5349cdc0c3.jpg);
+               background-repeat: no-repeat;
+               background-size: cover;
+           }
+        
+           #loginbox
+           {  
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+               text-align: center;
+               margin: 0 auto;
+               margin-top:10%;
+               padding: 10px 30px;
+               border-radius: 10px;
+               width: 400px;
+               height: 300px;
+               background-color: rgba(38, 38, 38, 0.75);
+           }
 
-}
+    #loginbox h1
+    {
+        color: whitesmoke;
+    }
 
-#loginbox h1
-{
-    color: whitesmoke;
-    font-size: 25px;
-}
+    #loginbox .inputbox
+    {
+        margin: 30px;
+    }
 
-#loginbox .inputbox
-{
-    margin-top: 20px;
-}
+    #loginbox .inputbox .inputtext
+    {
+        margin: 20px;
+    }
 
-#loginbox .inputbox .inputtext
-{
-    margin-top: 15px;
-}
+    #loginbox .inputbox .inputtext input
+    {
+        border: 0px;
+        padding: 5px 5px;
+        border-bottom: 1px solid whitesmoke;
+        background-color:#00000000;
+        color:seashell;
+    }
 
-#loginbox .inputbox .inputtext input
-{
-    border: 0px;
-    padding: 5px 5px;
-    border-bottom: 1px solid whitesmoke;
-    background-color：00000000;
-}
-
-#loginbox .inputbox
-{
-
-}
-
-#link
-{
-    font-size: 10px;
-    text-align:end;
-}
-
-
+    #loginbox .link
+    {
+        text-align: end;
+    }
