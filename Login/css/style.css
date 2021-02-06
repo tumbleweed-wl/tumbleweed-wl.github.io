@@ -4,8 +4,9 @@
                margin: 0px;
                padding: 0px;
                background-image: url(../img/12d88c406a25f0eda0f54d5349cdc0c3.jpg);
-               background-repeat: no-repeat;
+               background-repeat: no-epeat;
                background-size: cover;
+               
            }
         
            #loginbox
@@ -48,4 +49,5 @@
     #loginbox .link
     {
         text-align: end;
+        font-size: 15px;
     }
