@@ -23,7 +23,7 @@
 
     #loginbox h1
     {
-        color: whitesmoke;
+        color:#fda085;
     }
 
     #loginbox .inputbox
@@ -57,4 +57,5 @@
         width: 80px;
         border-radius: 15px;
         margin-top: 15px;
+        background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     }
