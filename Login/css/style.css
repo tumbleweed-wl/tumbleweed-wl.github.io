@@ -50,3 +50,11 @@
         text-align: end;
         font-size: 15px;
     }
+
+    #loginbox .inputbox .inputbutton
+    {
+        border: 0;
+        width: 80px;
+        border-radius: 15px;
+        margin-top: 15px;
+    }
