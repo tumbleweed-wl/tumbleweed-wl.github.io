@@ -3,7 +3,7 @@ axios.post('https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=8c99cf61-bece-4
 
   "msgtype": "markdown",
   "markdown": {
-    "content": "### IT服务中心截止至22:00单据统计:\n>今日总单量：<font color=\"warning\">X</font>单；\n >跨部门：<font color=\"comment\">X</font>单；\n >下派区域：<font color=\"comment\">X</font>单；\n >同事1：经手单据:<font color=\"info\">X</font>单，\n >已完成：<font color=\"info\">X</font>单；\n >同事2：经手单据:<font color=\"info\">X</font>单，\n >已完成：<font color=\"info\">X</font>单；"
+    "content": "2020/02/27 IT服务中心截止至22:00单据统计:\n >周明利：已完成：<font color=\"info\">41</font>单；\n >王磊：已完成：<font color=\"info\">75</font>单；"
   }
 })
   .then(function (response) {
