@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--定义了整个页面属于html-->
+<html>
+    <!--这是头部的内容，定义此html内的信息-->
+    <head>
+        <!--基本元，让浏览器能够识别这个页面的内容-->
+        <meta charset='utf-8'>
+        <!--为搜索引擎定义关键词-->
+        <meta name="keyword" content="html,css,javascript">
+        <!--为网页定义描述内容-->
+        <meta name="decscription" content="web & 教程">
+        <!--定义网页作者-->
+        <meta name ='it' content="佚名">
+        <!--每30秒刷新当前页面-->
+        <meta http-equiv="refresh" content="60">
+        <!--链接标签，rel为样式表，href则为路径指引-->
+        <link rel="stylesheet" href="./css/test.css">
+        <!--定义这个页面的标签是什么-->
+        <title>test</title>
+    </head>
+    <body>
+        <header>
+        <!--这里是标题-->
+        <h1>test</h1>
+        <!--评论里面看来的，我以为是设置文本的尺寸，实际看上去并没有什么卵用-->
+        <strong>加粗</strong> 
+        <h2>222</h2>
+        <em>斜体</em>
+        <h3>333</h3>
+        <big>放大</big>
+        <h4>444</h4>
+        <small>缩小</small>
+        <h5>555</h5>
+        <sub>向上</sub>
+        <h6>666</h6>
+        <sup><del>bushi</del>向下</sup>
+        </header>
+        <!--这里是第一段-->
+        <p>ddd</p>
+        <code>计算机输出</code>
+        <kbd>键盘输入</kbd>
+        <textarea></textarea>
+        <samp>计算机代码<ins>样本</ins></samp>
+        <var>计算机变量</var>
+        <!--这里是a标签链接-->
+        <a href="https://www.runoob.com/html/html-basic.html"><img src="./img/tst.jpg" alt="图片跑丢了" width="150" height="150"></a>
+        <!--这里是插入了一张图片，loading我不知道什么意思，猜测也许是图片名称？alt图片整体大小-->
+        
+        <!--下面三个都是换行标签，好像没什么用-->
+        <br>
+        <br>
+        <br>
+        <!--这是个下划线，标签名看上去像人力资源-->
+        <hr>
+        <!--这里是第二段-->
+        <p>ccc</p>
+        <!--这是另一个a标签链接-->
+        <a href="https://www.baidu.com/">这是百度</a>
+        <a href="https://www.runoob.com/" target="_blank" rel="noopener noreferrer">访问菜鸟教程!</a>
+
+        <!--表格从table开始，行从tr开始，表内内容由td开始，-->
+        <h3>表格</h3>
+        <caption>tesesheet</caption><!--表格的标题-->
+        <table border="1">
+        <tr>
+             <!--colspan可让一格内容跨行显示-->
+             <th colspan="3">用th标签进行定义表格表头，内容一般会居中显示，并且有加粗效果</th>
+            <td>20000</td>
+            <td>333333</td>
+        </tr>
+        </table>
+        <table border="2">
+        <tr>
+                <!--rowspan可让一个内容跨列显示-->
+                <th rowspan="3">用th标签进行定义表格表头，内容一般会居中显示，并且有加粗效果</th>
+        </tr>
+        <tr>
+            <td>555555</td>
+            <table border="1"><!--这里是给表格里面添加了一个表中表-->
+                <td>6666666</td>
+                <td>99999</td>
+        </tr>
+        <tr>
+            <td>7777</td>
+        </tr>
+        
+        <tr>
+            <td>88888</td>
+        </tr>
+        </table>
+
+        <tr>
+            <table border="1">
+            <ul>
+                <li>eee</li>
+                <li>rrrr</li>
+                <li>qqqqq</li>
+            </ul>
+        </table>
+        </tr>
+        </table>
+    </body>
+</html>
