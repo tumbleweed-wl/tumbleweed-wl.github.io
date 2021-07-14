@@ -19,6 +19,7 @@
         <title>test</title>
     </head>
     <body>
+        <div>
         <header>
         <!--这里是标题-->
         <h1>test</h1>
@@ -57,6 +58,7 @@
         <!--这是另一个a标签链接-->
         <a href="https://www.baidu.com/">这是百度</a>
         <a href="https://www.runoob.com/" target="_blank" rel="noopener noreferrer">访问菜鸟教程!</a>
+        </div>
 
         <!--表格从table开始，行从tr开始，表内内容由td开始，-->
         <h3>表格</h3>
@@ -76,9 +78,10 @@
         </tr>
         <tr>
             <td>555555</td>
-            <table border="1"><!--这里是给表格里面添加了一个表中表-->
+            <table border="1" cellpaddding='10'><!--这里是给表格里面添加了一个表中表,cellpidding是创建表格与内容之间的间距，但是好像没什么用-->
                 <td>6666666</td>
                 <td>99999</td>
+            </table>
         </tr>
         <tr>
             <td>7777</td>
@@ -87,17 +90,79 @@
         <tr>
             <td>88888</td>
         </tr>
-        </table>
+             </table>
 
         <tr>
-            <table border="1">
+            <table border="1" cellspacing='10'><!--这是创建单元格间距，但是好像也没什么用，现在好像不用这种写法了-->
+                <td>
             <ul>
                 <li>eee</li>
                 <li>rrrr</li>
                 <li>qqqqq</li>
             </ul>
-        </table>
+        </td>
+        </tr>
+
+        <tr>
+            <table border="1">
+                <td>
+                <ol start="40"><!--这个strat是表示有序列表从哪个数字开始顺序向下排序-->
+                    <li>ggg</li>
+                    <li>ooo</li>
+                    <li>ppp</li>
+                </ol>
+            </table>
+        </td>
         </tr>
         </table>
+
+        <dl>
+            <dt>iiiii</dt>
+            <dd>- asdsad</dd>
+            <dt>llll</dt>
+            <dd>- mmmmmm</dd>
+        </dl>
+
+        <!--不同类的有序列表，可以使用type插入不同类型的序号-->
+        <!--可以使用style样式编辑不同的无续列表，比如list-style-type:disc-->
+        <h4>测试一行</h4>
+        <ol>
+            <li>测试一号</li>
+            <li>测试二号</li>
+            <li>测试三号</li>
+            <li>测试四号</li>
+        </ol>
+        <!--嵌套列表，可以层叠式插入-->
+        <h4>测试二行</h4>
+        <ul>
+            <li>测试五号</li>
+            <li>测试六号</li>
+            <ul>
+                <li>测试七号</li>
+                <li>测试八号</li>
+                <ol>
+                    <li>测试重复嵌套一号</li>
+                    <li>测试重复嵌套二号</li>
+                </ol>
+            </ul>
+        </ul>
+
+        <h4>测试三行，自定义列表</h4>
+        <dl>
+            <dt>测试九号</dt>
+            <dd>（这里可以自定义编号）测试九又四分之三号</dd>
+            <dt>测试十号</dt>
+            <dd>-测试十又四分之三号</dd>
+        </dl>
+
+        <h4>测试四行</h4>
+        <ol type="A">
+            <li>测试英文排序1</li>
+            <li>测试英文排序2</li>
+        </ol>
+        <h4>测试五行</h4>
+        <ol type="I">
+            <li>测试</li>
+        </ol>
     </body>
 </html>
