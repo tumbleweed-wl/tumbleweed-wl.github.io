@@ -1,6 +1,19 @@
-body{
-    margin: 0px;
+body
+{
+    background-image: url(../img/502997c6c932d8f8028954ee7fb88d2c.jpg);
+    padding: auto;
+}
+
+#testindex
+{
+    width: 10px;
     height: 5px;
-    padding: 5px;
-    background-image: url(../元气壁纸缓存/img/f24624e48623c567570e991549b722b3.jpg);
-    }
+    background-color: lightgray;
+
+}
+
+.testindexinput
+{
+    background-color: lightgray;
+    margin-top: 300px;
+}

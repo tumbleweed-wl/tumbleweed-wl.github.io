@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <!--定义了整个页面属于html-->
 <html>
@@ -10,7 +11,7 @@
         <!--为网页定义描述内容-->
         <meta name="decscription" content="web & 教程">
         <!--定义网页作者-->
-        <meta name ='it' content="佚名">
+        <meta name ='author' content="佚名">
         <!--每*秒刷新当前页面-->
         <meta http-equiv="refresh" content="60">
         <!--链接标签，rel为样式表，href则为路径指引-->
@@ -19,8 +20,8 @@
         <title>test</title>
     </head>
     <body>
-        <div id="testindex">
-            <h3 class="testindexinput">这是一个自我考核的页面</h3>
+        <div>
+            <h3>这是一个自我考核的页面</h3>
         <form action="">
             <fieldset style="min-width: auto;">
                 <legend>自我考核用</legend>
@@ -51,8 +52,8 @@
             <button value="yes">已满18岁,继续</button>
             <button value="no">未满18岁,退出</button>
             <br>
-                <input type="checkbox" name="vehicle" value="pen">I have a pen<br><!--复选框,name为当前组名,需要一致才能完成当前表单下的复选-->
-                <input type="checkbox" name="vehicle" value="apple">I have a apple<br>
+                <input type="checkbox" name="vehicle" value="Bike">I have a bike<br><!--复选框,name为当前组名,需要一致才能完成当前表单下的复选-->
+                <input type="checkbox" name="vehicle" value="Car">I have a car<br>
             </form>
             <form action="https://www.baidu.com/">
                 <fieldset><!--表单边框-->
@@ -72,6 +73,7 @@
         <h2 >222</h2>
         <em style="text-align: center;">斜体</em>
         <h3>333</h3>
+        <big>放大</big>
         <h4>444</h4>
         <small>缩小</small>
         <h5>555</h5>
@@ -202,3 +204,4 @@
         </ol>
     </body>
 </html>
+```
