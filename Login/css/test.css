@@ -1,19 +1,24 @@
-body
-{
-    background-image: url(../img/502997c6c932d8f8028954ee7fb88d2c.jpg);
-    padding: auto;
+.aside a {
+    display: block;
+    background-color: rgba(105,101,101,.6);
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    width: 300px;
+    text-decoration: none;
+    text-indent: 50px;
+    line-height: 40px;
 }
 
-#testindex
-{
-    width: 10px;
-    height: 5px;
-    background-color: lightgray;
-
+.aside a:hover{
+    background-color: #ff6700;
 }
 
-.testindexinput
-{
-    background-color: lightgray;
-    margin-top: 300px;
+footer{
+    font-size: 14px;
+    color: #424242;
+    list-style-type: none;
+    height: 400px;
+    display: block;
+    text-decoration: none;
 }

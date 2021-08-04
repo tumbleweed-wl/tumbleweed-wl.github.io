@@ -73,7 +73,6 @@
         <h2 >222</h2>
         <em style="text-align: center;">斜体</em>
         <h3>333</h3>
-        <big>放大</big>
         <h4>444</h4>
         <small>缩小</small>
         <h5>555</h5>

@@ -32,3 +32,10 @@
 | [font-variant](https://www.runoob.com/cssref/pr-font-font-variant.html) | 以小型大写字体或者正常字体显示文本。                         |
 | [font-weight](https://www.runoob.com/cssref/pr-font-weight.html) | 指定字体的粗细。范围为100-900，400 等同于 normal，而 700 等同于 bold。 |
 
+| 属性                                                         | 描述                                                 |
+| :----------------------------------------------------------- | :--------------------------------------------------- |
+| [list-style](https://www.runoob.com/cssref/pr-list-style.html) | 简写属性。按顺序把所有用于列表的属性设置于一个声明中 |
+| [list-style-image](https://www.runoob.com/cssref/pr-list-style-image.html) | 将图像设置为列表项标志。                             |
+| [list-style-position](https://www.runoob.com/cssref/pr-list-style-position.html) | 设置列表中列表项标志的位置。                         |
+| [list-style-type](https://www.runoob.com/cssref/pr-list-style-type.html) | 设置列表项标志的类型。                               |
+

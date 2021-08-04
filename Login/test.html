@@ -1,204 +1,72 @@
 <!DOCTYPE html>
-<!--定义了整个页面属于html-->
-<html>
-    <!--这是头部的内容，定义此html内的信息-->
-    <head>
-        <!--基本元，让浏览器能够识别这个页面的内容-->
-        <meta charset='utf-8'>
-        <!--为搜索引擎定义关键词-->
-        <meta name="keyword" content="html,css,javascript">
-        <!--为网页定义描述内容-->
-        <meta name="decscription" content="web & 教程">
-        <!--定义网页作者-->
-        <meta name ='it' content="佚名">
-        <!--每*秒刷新当前页面-->
-        <meta http-equiv="refresh" content="60">
-        <!--链接标签，rel为样式表，href则为路径指引-->
-        <link rel="stylesheet" href="./css/test.css">
-        <!--定义这个页面的标签是什么-->
-        <title>test</title>
-    </head>
-    <body>
-        <div id="testindex">
-            <h3 class="testindexinput">这是一个自我考核的页面</h3>
-        <form action="">
-            <fieldset style="min-width: auto;">
-                <legend>自我考核用</legend>
-            考核用户名:<br>
-            <input type="user" placeholder="请输入用户名"><br>
-            考核密码:<br>
-            <input type="password" placeholder="请输入密码"><br><br>
-            <input type="submit" value="完成">
-            <input type="reset" value="重置">
-            </fieldset>
-        </form>
-        </div>
-        <form action="">
-            Username: <input type="text" name="user"><br>
-            Password: <input type="password" name="password">
-            </form>
-            
-        <div id="test" style="text-align: center;">
-            <form action=""><!--提交form表单-->
-            testuser<input type="user" name="testuser"><br>
-            testpassword<input type="password" name="testpassword"><br>
-            <select name="change"><!--下拉框-->
-                <option value="111">111</option>
-                <option value="222">222</option>
-                <option value="333">333</option>
-                <option value="444">444</option>
-            </select>
-            <button value="yes">已满18岁,继续</button>
-            <button value="no">未满18岁,退出</button>
-            <br>
-                <input type="checkbox" name="vehicle" value="pen">I have a pen<br><!--复选框,name为当前组名,需要一致才能完成当前表单下的复选-->
-                <input type="checkbox" name="vehicle" value="apple">I have a apple<br>
-            </form>
-            <form action="https://www.baidu.com/">
-                <fieldset><!--表单边框-->
-                    <legend>这是专属边框内的标题</legend>
-                <input type="radio" name="lei" value="ok">okokok<!--单选框,同复选框组名规则一样-->
-                <br>
-                <input type="radio" name="lei" value="no">nonono<br>
-                <input type="submit"><!--提交按钮-->
-            </fieldset>
-            </form>
-        </div>
-        <header>
-        <!--这里是标题-->
-        <h1 style="text-align: center;">test</h1>
-        <!--评论里面看来的，我以为是设置文本的尺寸，实际看上去并没有什么卵用-->
-        <strong style="text-align: center;">加粗</strong> 
-        <h2 >222</h2>
-        <em style="text-align: center;">斜体</em>
-        <h3>333</h3>
-        <h4>444</h4>
-        <small>缩小</small>
-        <h5>555</h5>
-        <sub>向上</sub>
-        <h6>666</h6>
-        <sup style="text-align: center;"><del>bushi</del>向下</sup>
-        </header>
-        <p>ddd</p>
-        <code>计算机输出</code>
-        <kbd>键盘输入</kbd>
-        <textarea></textarea>
-        <samp>计算机代码<ins>样本</ins></samp>
-        <var>计算机变量</var>
-        <!--这里是a标签链接-->
-        <a href="https://www.runoob.com/html/html-basic.html"><img src="./img/tst.jpg" alt="图片跑丢了" width="150" height="150"></a>
-        <!--这里是插入了一张图片，loading我不知道什么意思，猜测也许是图片名称？alt定义图片无法加载后显示的文本-->
-        
-        <!--这是个下划线，标签名看上去像人力资源-->
-        <hr>
-        <p>ccc</p>
-        <a href="https://www.baidu.com/">这是百度</a>
-        <a href="https://www.runoob.com/" target="_blank" rel="noopener noreferrer">访问菜鸟教程!</a>
-        
-
-        <!--表格从table开始，行从tr开始，表内内容由td开始，-->
-        <h3>表格</h3>
-        <caption>tesesheet</caption><!--表格的标题-->
-        <table border="1">
-        <tr>
-             <!--colspan可让一格内容跨行显示-->
-             <th colspan="3">用th标签进行定义表格表头，内容一般会居中显示，并且有加粗效果</th>
-            <td>20000</td>
-            <td>333333</td>
-        </tr>
-        </table>
-        <table border="2">
-        <tr>
-                <!--rowspan可让一个内容跨列显示-->
-                <th rowspan="3">用th标签进行定义表格表头，内容一般会居中显示，并且有加粗效果</th>
-        </tr>
-        <tr>
-            <td>555555</td>
-            <table border="1" cellpaddding='10'><!--这里是给表格里面添加了一个表中表,cellpidding是创建表格与内容之间的间距，但是好像没什么用-->
-                <td>6666666</td>
-                <td>99999</td>
-            </table>
-        </tr>
-        <tr>
-            <td>7777</td>
-        </tr>
-        
-        <tr>
-            <td>88888</td>
-        </tr>
-             </table>
-
-        <tr>
-            <table border="1" cellspacing='10'><!--这是创建单元格间距，但是好像也没什么用，现在好像不用这种写法了-->
-                <td>
-            <ul>
-                <li>eee</li>
-                <li>rrrr</li>
-                <li>qqqqq</li>
-            </ul>
-        </td>
-        </tr>
-
-        <tr>
-            <table border="1">
-                <td>
-                <ol start="40"><!--这个strat是表示有序列表从哪个数字开始顺序向下排序-->
-                    <li>ggg</li>
-                    <li>ooo</li>
-                    <li>ppp</li>
-                </ol>
-            </table>
-        </td>
-        </tr>
-        </table>
-
-        <dl>
-            <dt>iiiii</dt>
-            <dd>- asdsad</dd>
-            <dt>llll</dt>
-            <dd>- mmmmmm</dd>
-        </dl>
-
-        <!--不同类的有序列表，可以使用type插入不同类型的序号-->
-        <!--可以使用style样式编辑不同的无续列表，比如list-style-type:disc-->
-        <h4>测试一行</h4>
-        <ol>
-            <li>测试一号</li>
-            <li>测试二号</li>
-            <li>测试三号</li>
-            <li>测试四号</li>
-        </ol>
-        <!--嵌套列表，可以层叠式插入-->
-        <h4>测试二行</h4>
-        <ul>
-            <li>测试五号</li>
-            <li>测试六号</li>
-            <ul>
-                <li>测试七号</li>
-                <li>测试八号</li>
-                <ol>
-                    <li>测试重复嵌套一号</li>
-                    <li>测试重复嵌套二号</li>
-                </ol>
-            </ul>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>侧边栏</title>
+    <link rel="stylesheet" href="./css/test.css">
+</head>
+<body>
+    <div class="aside">
+        <a href="#">手机 电话卡</a>
+        <a href="#">电视 盒子</a>
+        <a href="#">笔记本 显示器</a>
+        <a href="#">家电 插线板</a>
+        <a href="#">出行 穿戴</a>
+        <a href="#">智能 路由器</a>
+        <a href="#">电源 配件</a>
+        <a href="#">健康 儿童</a>
+        <a href="#">耳机 音响</a>
+        <a href="#">生活 箱包</a>
+    </div>
+        <footer>
+            <dl>
+                <dt><a href="#">账户管理</a></dt>
+                <dd><a href="#">帮助中心</a></dd>
+                <dd><a href="#">购物指南</a></dd>
+                <dd><a href="#">订单操作</a></dd>
+                </dl>   
+        <ul class="b"> 
+            <a href="#">服务支持</a>
+            <a href="#">售后政策</a>
+            <a href="#">自助服务</a>
+            <a href="#">相关下载</a>   
         </ul>
+        <ul class="c">
+            <li><a href="#">线下门店</a></li>
+            <li><a href="#">小米之家</a></li>
+            <li><a href="#">服务网点</a></li>
+            <li><a href="#">授权体验店</a></li>  
+        </ul>     
+        <ul class="d"> 
+            <li><a href="#">关于小米</a></li>
+            <li><a href="#">了解小米</a></li>
+            <li><a href="#">加入小米</a></li>
+            <li><a href="#">投资者关系</a></li>
+            <li><a href="#">企业社会责任</a></li>
+            <li><a href="#">廉洁举报</a></li>   
+        </ul>
+        <ul class="e">
+            <li><a href="#">关注我们</a></li>
+            <li><a href="#">新浪微博</a></li>
+            <li><a href="#">官方微信</a></li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">公益基金会</a></li>
+        </ul>
+        <ul class="f">
+            <li><a href="#">特色服务</a></li>
+            <li><a href="#">F 码通道</a></li>
+            <li><a href="#">礼物码</a></li>
+            <li><a href="#">防伪查询</a></li>           
+        </ul>
+        </footer>
 
-        <h4>测试三行，自定义列表</h4>
-        <dl>
-            <dt>测试九号</dt>
-            <dd>（这里可以自定义编号）测试九又四分之三号</dd>
-            <dt>测试十号</dt>
-            <dd>-测试十又四分之三号</dd>
-        </dl>
+            <!-- 鱼群跳跃 -->
+    <div id="j-fish-skip"></div>
 
-        <h4>测试四行</h4>
-        <ol type="A">
-            <li>测试英文排序1</li>
-            <li>测试英文排序2</li>
-        </ol>
-        <h4>测试五行</h4>
-        <ol type="I">
-            <li>测试</li>
-        </ol>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/assets/js/fish.min.js"></script>
+</body>
 </html>
