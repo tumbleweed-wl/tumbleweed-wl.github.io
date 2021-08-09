@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-		<style type="text/css">
+```css
+		<style type="text/css"></style>
 			/*基本选择器（权重:标签1 类10 id:100）*/
 			/*标签选择器：所有的当前标签使用*/
 			p {
@@ -173,3 +169,4 @@
 
 	</body>
 </html>
+```

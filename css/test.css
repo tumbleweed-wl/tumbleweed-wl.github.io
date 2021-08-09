@@ -10,15 +10,13 @@
     line-height: 40px;
 }
 
-.aside a:hover{
+.aside a:hover {
     background-color: #ff6700;
 }
 
-footer{
+footer {
     font-size: 14px;
     color: #424242;
     list-style-type: none;
     height: 400px;
-    display: block;
-    text-decoration: none;
 }
