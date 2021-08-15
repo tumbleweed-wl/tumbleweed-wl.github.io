@@ -3,7 +3,7 @@ axios.post('https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=8c99cf61-bece-4
 
   "msgtype": "markdown",
   "markdown": {
-    "content": "IT服务中心截止至22:00单据统计:\n >王展鹏：已完成：<font color=\"info\">74</font>单；\n >史顺康：已完成：<font color=\"info\">56</font>单；\n >王磊：已完成：<font color=\"info\">67</font>单；"
+    "content": "IT服务中心截止至22:00单据统计:\n >肖周荣：已完成：<font color=\"info\">48</font>单；\n >王展鹏：已完成：<font color=\"info\">84</font>单；\n >史顺康：已完成：<font color=\"info\">104</font>单；\n >王磊：已完成：<font color=\"info\">132</font>单；"
   }
 })
   .then(function (response) {
